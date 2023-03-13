@@ -1,0 +1,165 @@
+/* xxl-device Start*/
+@media (min-width: 1400px) {
+}
+
+/* xl-device Start*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* lg-device Start*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* md-device Start*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Banner CSS Start */
+  .banner .text-part {
+    padding-bottom: 30px;
+  }
+
+  .banner .text-part h1 {
+    font-size: 40px;
+  }
+  /* Banner CSS End */
+
+  /* Match Items CSS Start */
+  .match-items .container {
+    flex-wrap: wrap;
+  }
+
+  .match-items .menu-box {
+    width: 100%;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .menu a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .uc-item img {
+    width: 78px !important;
+    height: 50px;
+  }
+
+  /* Match Items CSS End */
+}
+
+/* sml-device Start*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 80%;
+  }
+
+  .banner .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner .text-part {
+    color: #ffffff;
+    padding: 40px 0;
+  }
+
+  .banner .text-part h1 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .match-items .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .match-items .menu-box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .menu a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 130px;
+    padding: 15px 0;
+  }
+
+  .match-items .item-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+/* xsml-device Start*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  /* Banner CSS Start */
+
+  .banner .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner .text-part {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .banner .text-part h1 {
+    font-size: 30px;
+  }
+
+  .banner .text-part p {
+    font-size: 15px;
+  }
+
+  .banner .text-part a {
+    font-size: 13px;
+  }
+  /* Banner CSS End */
+
+  /* Match Items CSS Start */
+  .match-items .container {
+    flex-wrap: wrap;
+  }
+
+  .match-items .menu-box {
+    width: 100%;
+  }
+
+  .match-items .item-box {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Match Items CSS End */
+
+  /* Footer CSS Start */
+  .footer-menu a{
+    display: block;
+  }
+  /* Footer CSS End */
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 419.98px) {
+}
+
+@media (max-width: 305.98px) {
+}
+
+@media (max-width: 280.98px) {
+}

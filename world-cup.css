@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Common CSS Start */
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Common CSS End*/
+
+/* Main CSS Start */
+
+/* Banner CSS Start */
+.banner {
+  width: 100%;
+  position: relative;
+}
+
+.banner .container {
+  background: #08313e;
+  /* height: 550px; */
+  padding: 35px 25px 0 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.banner .img-part img {
+  display: block;
+  width: 90%;
+  height: 100%;
+}
+
+.banner .text-part {
+  color: #ffffff;
+  padding-top: 40px;
+}
+
+.banner .text-part h1 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 70px;
+  /* line-height: 80px; */
+}
+
+.banner .text-part p {
+  width: 90%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 15px 0;
+}
+
+.banner .text-part a {
+  display: inline-block;
+  color: #08313e;
+  background: #9c6005;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all .5s;
+  position: relative;
+  z-index: 1;
+}
+
+.banner .text-part a::after{
+  position: absolute;
+  content: '';
+  width: 0%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #ffffff;
+  z-index: -1;
+  transition: all .5s;
+  border-radius: 5px;
+}
+
+.banner .text-part a:hover::after{
+  width: 100%;
+  right: 0;
+  color: #161616;
+}
+
+
+/* Banner CSS End */
+
+/* Match CSS Start */
+.match-items {
+  margin-bottom: 40px;
+}
+
+.match-items .container {
+  display: flex;
+  flex-wrap: nowrap;
+  /* background: #DD0000; */
+}
+
+.match-items .menu-box {
+  width: 300px;
+}
+
+.menu {
+  background: #1d3728;
+  border-radius: 10px;
+  padding: 30px 0;
+  margin-top: 10px;
+}
+
+.menu a {
+  display: block;
+  text-align: center;
+  color: #161616;
+  background: #e8e8e8;
+  margin: 10px auto;
+  width: 150px;
+  padding: 15px 0;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.menu a:hover {
+  color: #ffffff;
+  background: #9c6005;
+}
+
+.menu a:focus {
+  background: #9c6005;
+  color: #ffffff;
+}
+
+.match-items .item-box {
+  /* background: #DD0000; */
+  /* width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+.item {
+  margin: 10px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #e8e8e8;
+}
+
+.item .item-text {
+  padding: 20px;
+}
+
+.item .item-text a {
+  font: 18px;
+  padding: 5px 8px;
+  border: 1px solid #161616;
+  border-radius: 5px;
+  color: #161616;
+}
+
+.item .item-text p {
+  font: 18px;
+  margin: 10px 0;
+}
+
+.item .item-text span {
+  display: inline-block;
+  vertical-align: middle;
+  color: #666;
+  align-self: center;
+}
+
+.item .item-img img {
+  display: block;
+  width: 100%;
+}
+
+.uc-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.uc-item img {
+  width: 100px !important;
+  height: 65px;
+}
+
+.uc-item span {
+  margin: 0 10px;
+}
+
+.uc-item-text {
+  text-align: center;
+  padding: 20px 0 30px !important;
+}
+
+.btn {
+  display: none;
+  margin: 0 auto;
+  color: #ffffff;
+  background: #dd0000;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+/* Match CSS End */
+
+/* Footer CSS Start */
+.footer {
+  background: #161616;
+  text-align: center;
+  color: #ffffff;
+  /* height: 400px; */
+  padding: 80px 0;
+}
+
+.footer h2 {
+  font-size: 30px;
+}
+
+.footer .footer-menu {
+  margin: 20px 0;
+  border-top: 1px solid #444;
+  padding: 30px 0 15px;
+}
+
+.footer a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+  margin: 0 5px;
+}
+
+/* Footer CSS End */
+
+/* Main CSS End */
